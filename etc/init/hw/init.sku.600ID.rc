@@ -1,0 +1,5 @@
+on fs
+    setprop ro.bsp.device NE1
+    setprop persist.lcm.brightness.cust 40
+    setprop persist.camera.torch.custom 200
+    setprop ro.camera.shuttersound.default 0

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hmsars>
+	<sar hwm="D77" value="0.314" icnvalue="0.315"/>
+	<sar hwm="VZ1" value="0.52" icnvalue="1.02"/>
+	<sar hwm="NE1" value="1.850" icnvalue="0.813"/>
+</hmsars>

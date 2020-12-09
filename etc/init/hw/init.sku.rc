@@ -1,0 +1,22 @@
+on fs
+    setprop ro.build.product NE1
+    setprop ro.product.device NE1
+    setprop ro.sf.lcd_density 320
+    setprop ro.product.brand Nokia
+    setprop ro.product.board MT6737
+    setprop ro.product.locale en-GB
+    setprop ro.product.model.num 00WW
+    setprop ro.product.vendor.device NE1
+    setprop ro.product.first_api_level 24
+    setprop ro.product.nickname "Nokia 3"
+    setprop ro.product.vendor.brand Nokia
+    setprop persist.vendor.anr.enhancement 0
+    setprop ro.vendor.mtk_bg_power_saving_ui 0
+    setprop ro.product.manufacturer "HMD Global"
+    setprop ro.vendor.mtk_bg_power_saving_support 0
+    setprop ro.com.google.clientidbase android-hmd-rev2
+    setprop ro.product.vendor.manufacturer "HMD Global"
+    setprop ro.vendor.build.fingerprint ${ro.build.fingerprint}
+on fs
+	setprop ro.build.fingerprint Nokia/NE1_00WW_FIH/NE1:9/PPR1.180610.011/00WW_5_120:user/release-keys
+	setprop ro.build.description "NE1_00WW_FIH-user 9 PPR1.180610.011 00WW_5_120 release-keys"

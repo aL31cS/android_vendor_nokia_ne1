@@ -1,0 +1,11 @@
+on fs
+    setprop ro.product.model TA-1020
+    setprop ro.product.name TA-1020_00WW
+    setprop ro.product.vendor.model TA-1020
+    setprop ro.product.vendor.name TA-1020_00WW
+on post-fs
+    setprop sys.cda.checkmultisim 2
+    setprop persist.radio.multisim.config dsds
+on fs
+	setprop ro.build.fingerprint Nokia/TA-1020_00WW/NE1:9/PPR1.180610.011/00WW_5_120:user/release-keys
+	setprop ro.build.description "TA-1020_00WW-user 9 PPR1.180610.011 00WW_5_120 release-keys"
